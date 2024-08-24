@@ -56,7 +56,8 @@ const Index = () => {
                     <option>Arizona</option>
                     <option>California</option>
                     <option>Colorado</option>
-                  </select>
+                  </select>{" "}
+                  {/* Este es un comentario ramdon */}
                 </div>
               </div>
               <div className="col-md-6 mb-2">
