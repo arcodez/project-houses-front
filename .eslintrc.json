@@ -1,4 +1,7 @@
 {
   "extends": "next/core-web-vitals",
-  "unicorn/better-regex": "off"
+  "unicorn/better-regex": "off",
+  "rules": {
+    "unicorn/no-sync-scripts": "off"
+  }
 }
