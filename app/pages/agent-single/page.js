@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "@/app/components/Layout";
 
 const AgentSingle = () => {
   return (
-    <>
+    <Layout>
       {/* ======= Property Search Section ======= */}
       <div className="click-closed" />
       {/*/ Form Search Star /*/}
@@ -135,95 +136,6 @@ const AgentSingle = () => {
         </div>
       </div>
       {/* End Property Search Section */}&gt;
-      {/* ======= Header/Navbar ======= */}
-      <nav className="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
-        <div className="container">
-          <button
-            className="navbar-toggler collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarDefault"
-            aria-controls="navbarDefault"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span />
-            <span />
-            <span />
-          </button>
-          <a className="navbar-brand text-brand" href="index.html">
-            Estate<span className="color-b">Agency</span>
-          </a>
-          <div
-            className="navbar-collapse collapse justify-content-center"
-            id="navbarDefault"
-          >
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link " href="index.html">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " href="about.html">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " href="property-grid.html">
-                  Property
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " href="blog-grid.html">
-                  Blog
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Pages
-                </a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item " href="property-single.html">
-                    Property Single
-                  </a>
-                  <a className="dropdown-item " href="blog-single.html">
-                    Blog Single
-                  </a>
-                  <a className="dropdown-item active" href="agents-grid.html">
-                    Agents Grid
-                  </a>
-                  <a className="dropdown-item " href="agent-single.html">
-                    Agent Single
-                  </a>
-                </div>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " href="contact.html">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-          <button
-            type="button"
-            className="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-          >
-            <i className="bi bi-search" />
-          </button>
-        </div>
-      </nav>
-      {/* End Header/Navbar */}
       <main id="main">
         {/* =======Intro Single ======= */}
         <section className="intro-single">
@@ -729,179 +641,6 @@ const AgentSingle = () => {
         {/* End Agents Grid*/}
       </main>
       {/* End #main */}
-      {/* ======= Footer ======= */}
-      <section className="section-footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 col-md-4">
-              <div className="widget-a">
-                <div className="w-header-a">
-                  <h3 className="w-title-a text-brand">EstateAgency</h3>
-                </div>
-                <div className="w-body-a">
-                  <p className="w-text-a color-text-a">
-                    Enim minim veniam quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip exea commodo consequat duis sed aute irure.
-                  </p>
-                </div>
-                <div className="w-footer-a">
-                  <ul className="list-unstyled">
-                    <li className="color-a">
-                      <span className="color-text-a">Phone .</span>{" "}
-                      contact@example.com
-                    </li>
-                    <li className="color-a">
-                      <span className="color-text-a">Email .</span> +54 356
-                      945234
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-4 section-md-t3">
-              <div className="widget-a">
-                <div className="w-header-a">
-                  <h3 className="w-title-a text-brand">The Company</h3>
-                </div>
-                <div className="w-body-a">
-                  <div className="w-body-a">
-                    <ul className="list-unstyled">
-                      <li className="item-list-a">
-                        <i className="bi bi-chevron-right" />{" "}
-                        <a href="#">Site Map</a>
-                      </li>
-                      <li className="item-list-a">
-                        <i className="bi bi-chevron-right" />{" "}
-                        <a href="#">Legal</a>
-                      </li>
-                      <li className="item-list-a">
-                        <i className="bi bi-chevron-right" />{" "}
-                        <a href="#">Agent Admin</a>
-                      </li>
-                      <li className="item-list-a">
-                        <i className="bi bi-chevron-right" />{" "}
-                        <a href="#">Careers</a>
-                      </li>
-                      <li className="item-list-a">
-                        <i className="bi bi-chevron-right" />{" "}
-                        <a href="#">Affiliate</a>
-                      </li>
-                      <li className="item-list-a">
-                        <i className="bi bi-chevron-right" />{" "}
-                        <a href="#">Privacy Policy</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-4 section-md-t3">
-              <div className="widget-a">
-                <div className="w-header-a">
-                  <h3 className="w-title-a text-brand">International sites</h3>
-                </div>
-                <div className="w-body-a">
-                  <ul className="list-unstyled">
-                    <li className="item-list-a">
-                      <i className="bi bi-chevron-right" />{" "}
-                      <a href="#">Venezuela</a>
-                    </li>
-                    <li className="item-list-a">
-                      <i className="bi bi-chevron-right" />{" "}
-                      <a href="#">China</a>
-                    </li>
-                    <li className="item-list-a">
-                      <i className="bi bi-chevron-right" />{" "}
-                      <a href="#">Hong Kong</a>
-                    </li>
-                    <li className="item-list-a">
-                      <i className="bi bi-chevron-right" />{" "}
-                      <a href="#">Argentina</a>
-                    </li>
-                    <li className="item-list-a">
-                      <i className="bi bi-chevron-right" />{" "}
-                      <a href="#">Singapore</a>
-                    </li>
-                    <li className="item-list-a">
-                      <i className="bi bi-chevron-right" />{" "}
-                      <a href="#">Philippines</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <nav className="nav-footer">
-                <ul className="list-inline">
-                  <li className="list-inline-item">
-                    <a href="#">Home</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">About</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">Property</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">Blog</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">Contact</a>
-                  </li>
-                </ul>
-              </nav>
-              <div className="socials-a">
-                <ul className="list-inline">
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <i className="bi bi-facebook" aria-hidden="true" />
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <i className="bi bi-twitter" aria-hidden="true" />
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <i className="bi bi-instagram" aria-hidden="true" />
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <i className="bi bi-linkedin" aria-hidden="true" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="copyright-footer">
-                <p className="copyright color-text-a">
-                  © Copyright
-                  <span className="color-a">EstateAgency</span> All Rights
-                  Reserved.
-                </p>
-              </div>
-              <div className="credits">
-                {/*
-      All the links in the footer should remain intact.
-      You can delete the links only if you purchased the pro version.
-      Licensing information: https://bootstrapmade.com/license/
-      Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
-    */}
-                Designed by{" "}
-                <a href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      {/* End  Footer */}
       {/*   <div id="preloader" /> */}
       <a
         href="#"
@@ -911,7 +650,7 @@ const AgentSingle = () => {
       </a>
       {/* Vendor JS Files */}
       {/* Template Main JS File */}
-    </>
+    </Layout>
   );
   /*  */
 };

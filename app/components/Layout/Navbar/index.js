@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -17,38 +18,39 @@ const Navbar = () => {
           <span />
           <span />
         </button>
-        <a className="navbar-brand text-brand" href="index.html">
-          Estate<span className="color-b">Agency</span>
-        </a>
+        <Link className="navbar-brand text-brand" href="/">
+          <span className="color-b">Arcodez </span>Estate
+          <span className="color-b"> Agency</span>
+        </Link>
         <div
           className="navbar-collapse collapse justify-content-center"
           id="navbarDefault"
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" href="index.html">
+              <Link className="nav-link active" href="/">
                 Inicio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="about.html">
+              <Link className="nav-link " href="/pages/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="property-grid.html">
+              <Link className="nav-link " href="/pages/property-grid">
                 Property
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="blog-grid.html">
+              <Link className="nav-link " href="/pages/blog-grid">
                 Blog
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#"
+                href="/#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -56,26 +58,26 @@ const Navbar = () => {
                 aria-expanded="false"
               >
                 Pages
-              </a>
+              </Link>
               <div className="dropdown-menu">
-                <a className="dropdown-item " href="property-single.html">
+                <Link className="dropdown-item " href="/pages/property-single">
                   Property Single
-                </a>
-                <a className="dropdown-item " href="blog-single.html">
+                </Link>
+                <Link className="dropdown-item " href="/pages/blog-single">
                   Blog Single
-                </a>
-                <a className="dropdown-item " href="agents-grid.html">
+                </Link>
+                <Link className="dropdown-item " href="/pages/agents-grid">
                   Agents Grid
-                </a>
-                <a className="dropdown-item " href="agent-single.html">
+                </Link>
+                <Link className="dropdown-item " href="/pages/agent-single">
                   Agent Single
-                </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="contact.html">
+              <Link className="nav-link " href="/pages/contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

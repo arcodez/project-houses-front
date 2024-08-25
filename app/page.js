@@ -233,7 +233,7 @@ const Index = () => {
         <div className="swiper-wrapper">
           <div
             className="swiper-slide carousel-item-a intro-item bg-image"
-            style={{ backgroundImage: "url(assets/img/slide-1.jpg)" }}
+            style={{ backgroundImage: "url(/img/slide-1.jpg)" }}
           >
             <div className="overlay overlay-a" />
             <div className="intro-content display-table">
@@ -264,7 +264,7 @@ const Index = () => {
           </div>
           <div
             className="swiper-slide carousel-item-a intro-item bg-image"
-            style={{ backgroundImage: "url(assets/img/slide-2.jpg)" }}
+            style={{ backgroundImage: "url(/img/slide-2.jpg)" }}
           >
             <div className="overlay overlay-a" />
             <div className="intro-content display-table">
@@ -295,7 +295,7 @@ const Index = () => {
           </div>
           <div
             className="swiper-slide carousel-item-a intro-item bg-image"
-            style={{ backgroundImage: "url(assets/img/slide-3.jpg)" }}
+            style={{ backgroundImage: "url(/img/slide-3.jpg)" }}
           >
             <div className="overlay overlay-a" />
             <div className="intro-content display-table">
@@ -445,7 +445,7 @@ const Index = () => {
                   <div className="card-box-a card-shadow">
                     <div className="img-box-a">
                       <img
-                        src="assets/img/property-6.jpg"
+                        src="/img/property-6.jpg"
                         alt=""
                         className="img-a img-fluid"
                       />
@@ -501,7 +501,7 @@ const Index = () => {
                   <div className="card-box-a card-shadow">
                     <div className="img-box-a">
                       <img
-                        src="assets/img/property-3.jpg"
+                        src="/img/property-3.jpg"
                         alt=""
                         className="img-a img-fluid"
                       />
@@ -557,7 +557,7 @@ const Index = () => {
                   <div className="card-box-a card-shadow">
                     <div className="img-box-a">
                       <img
-                        src="assets/img/property-7.jpg"
+                        src="/img/property-7.jpg"
                         alt=""
                         className="img-a img-fluid"
                       />
@@ -613,7 +613,7 @@ const Index = () => {
                   <div className="card-box-a card-shadow">
                     <div className="img-box-a">
                       <img
-                        src="assets/img/property-10.jpg"
+                        src="/img/property-10.jpg"
                         alt=""
                         className="img-a img-fluid"
                       />
@@ -694,7 +694,7 @@ const Index = () => {
                 <div className="card-box-d">
                   <div className="card-img-d">
                     <img
-                      src="assets/img/agent-4.jpg"
+                      src="/img/agent-4.jpg"
                       alt=""
                       className="img-d img-fluid"
                     />
@@ -766,7 +766,7 @@ const Index = () => {
                 <div className="card-box-d">
                   <div className="card-img-d">
                     <img
-                      src="assets/img/agent-1.jpg"
+                      src="/img/agent-1.jpg"
                       alt=""
                       className="img-d img-fluid"
                     />
@@ -838,7 +838,7 @@ const Index = () => {
                 <div className="card-box-d">
                   <div className="card-img-d">
                     <img
-                      src="assets/img/agent-5.jpg"
+                      src="/img/agent-5.jpg"
                       alt=""
                       className="img-d img-fluid"
                     />
@@ -934,7 +934,7 @@ const Index = () => {
                   <div className="card-box-b card-shadow news-box">
                     <div className="img-box-b">
                       <img
-                        src="assets/img/post-2.jpg"
+                        src="/img/post-2.jpg"
                         alt=""
                         className="img-b img-fluid"
                       />
@@ -966,7 +966,7 @@ const Index = () => {
                   <div className="card-box-b card-shadow news-box">
                     <div className="img-box-b">
                       <img
-                        src="assets/img/post-5.jpg"
+                        src="/img/post-5.jpg"
                         alt=""
                         className="img-b img-fluid"
                       />
@@ -998,7 +998,7 @@ const Index = () => {
                   <div className="card-box-b card-shadow news-box">
                     <div className="img-box-b">
                       <img
-                        src="assets/img/post-7.jpg"
+                        src="/img/post-7.jpg"
                         alt=""
                         className="img-b img-fluid"
                       />
@@ -1030,7 +1030,7 @@ const Index = () => {
                   <div className="card-box-b card-shadow news-box">
                     <div className="img-box-b">
                       <img
-                        src="assets/img/post-3.jpg"
+                        src="/img/post-3.jpg"
                         alt=""
                         className="img-b img-fluid"
                       />
@@ -1084,7 +1084,7 @@ const Index = () => {
                       <div className="col-sm-12 col-md-6">
                         <div className="testimonial-img">
                           <img
-                            src="assets/img/testimonial-1.jpg"
+                            src="/img/testimonial-1.jpg"
                             alt=""
                             className="img-fluid"
                           />
@@ -1104,7 +1104,7 @@ const Index = () => {
                         </div>
                         <div className="testimonial-author-box">
                           <img
-                            src="assets/img/mini-testimonial-1.jpg"
+                            src="/img/mini-testimonial-1.jpg"
                             alt=""
                             className="testimonial-avatar"
                           />
@@ -1123,7 +1123,7 @@ const Index = () => {
                       <div className="col-sm-12 col-md-6">
                         <div className="testimonial-img">
                           <img
-                            src="assets/img/testimonial-2.jpg"
+                            src="/img/testimonial-2.jpg"
                             alt=""
                             className="img-fluid"
                           />
@@ -1143,7 +1143,7 @@ const Index = () => {
                         </div>
                         <div className="testimonial-author-box">
                           <img
-                            src="assets/img/mini-testimonial-2.jpg"
+                            src="/img/mini-testimonial-2.jpg"
                             alt=""
                             className="testimonial-avatar"
                           />
