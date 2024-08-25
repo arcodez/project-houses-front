@@ -1,11 +1,12 @@
 import React from "react";
+import Layout from "./components/Layout";
 
 const Index = () => {
   return (
-    <>
+    <Layout>
       {/* ======= Property Search Section ======= */}
-      <div className="click-closed" />
-      {/*/ Form Search Star /*/}
+      {/* Esta seccion no estoy seguro de que hace */}
+      {/*      <div className="click-closed" />
       <div className="box-collapse">
         <div className="title-box-d">
           <h3 className="title-d">Search Property</h3>
@@ -57,7 +58,7 @@ const Index = () => {
                     <option>California</option>
                     <option>Colorado</option>
                   </select>{" "}
-                  {/* Este es un comentario ramdon */}
+                 
                 </div>
               </div>
               <div className="col-md-6 mb-2">
@@ -134,10 +135,12 @@ const Index = () => {
             </div>
           </form>
         </div>
-      </div>
+      </div> */}
+      {/* Aqui termina la que no se que hace */}
+      {/*  */}
       {/* End Property Search Section */}&gt;
       {/* ======= Header/Navbar ======= */}
-      <nav className="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+      {/*       <nav className="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
         <div className="container">
           <button
             className="navbar-toggler collapsed"
@@ -223,7 +226,7 @@ const Index = () => {
             <i className="bi bi-search" />
           </button>
         </div>
-      </nav>
+      </nav> */}
       {/* End Header/Navbar */}
       {/* ======= Intro Section ======= */}
       <div className="intro intro-carousel swiper position-relative">
@@ -1162,7 +1165,7 @@ const Index = () => {
       </main>
       {/* End #main */}
       {/* ======= Footer ======= */}
-      <section className="section-footer">
+      {/*       <section className="section-footer">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-4">
@@ -1320,19 +1323,19 @@ const Index = () => {
                 </p>
               </div>
               <div className="credits">
-                {/*
-        All the links in the footer should remain intact.
+            
+      All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
-      */}
+   
                 Designed by{" "}
                 <a href="https://bootstrapmade.com/">BootstrapMade</a>
               </div>
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
       {/* End  Footer */}
       <a
         href="#"
@@ -1342,7 +1345,7 @@ const Index = () => {
       </a>
       {/* Vendor JS Files */}
       {/* Template Main JS File */}
-    </>
+    </Layout>
   );
 };
 
